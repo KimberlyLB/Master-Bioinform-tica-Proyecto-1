@@ -11,7 +11,11 @@ Proyecto de análisis bioinformático de secuencias mediante herramientas de pro
 - scripts/: código fuente  
 - results/: resultados  
 - notebooks/: análisis interactivo  
-- docs/: documentación  
+- docs/: documentación
+- ## Datos de entrada
+El programa requiere un archivo en formato FASTA que contenga las secuencias biológicas a analizar.
+Ubicación esperada:
+data/sample.fasta
 ## Requisitos
 - Python 3  
 - Biopython  
